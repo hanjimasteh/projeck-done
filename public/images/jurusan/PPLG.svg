@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="PPLG">
+  <rect width="120" height="120" rx="22" fill="#0f6b53"/>
+  <rect x="18" y="26" width="84" height="56" rx="6" fill="#ffffff" opacity="0.96"/>
+  <rect x="24" y="33" width="72" height="42" rx="4" fill="#0c3b2e"/>
+  <text x="38" y="62" font-family="Courier New, monospace" font-size="16" font-weight="bold" fill="#7ee2b8">&#60;/&#62;</text>
+  <text x="52" y="48" font-family="Courier New, monospace" font-size="10" fill="#ffffff">&#60;/&#62;</text>
+  <rect x="14" y="84" width="92" height="7" rx="3.5" fill="#d9ece6"/>
+  <rect x="48" y="92" width="24" height="6" rx="3" fill="#8fd0b6"/>
+</svg>

@@ -400,3 +400,4 @@ class DokumenTest extends TestCase
         return Pendaftaran::whereHas('calonSiswa', fn ($query) => $query->where('user_id', $user->id))
             ->firstOrFail();
     }
+}

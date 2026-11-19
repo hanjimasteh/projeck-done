@@ -96,7 +96,7 @@
                         <div class="col-12 col-md-6 col-lg-3">
                             <div class="info-card p-4 h-100 d-flex flex-column">
                                 <div class="d-flex justify-content-between align-items-start gap-2 mb-3">
-                                    <div class="info-icon"><i class="bi bi-grid-3x3-gap-fill"></i></div>
+                                    <img src="{{ asset('images/jurusan/'.$item->kode.'.svg') }}" alt="Logo {{ $item->kode }}" class="info-icon" style="object-fit: cover;">
                                     <x-badge variant="primary">{{ $item->kode }}</x-badge>
                                 </div>
                                 <h3 class="h6 fw-bold mb-0">{{ $item->nama }}</h3>

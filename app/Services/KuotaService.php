@@ -54,7 +54,7 @@ class KuotaService
             ->select('program_diterima_id')
             ->selectRaw('COUNT(*) as total')
             ->groupBy('program_diterima_id')
-            ->pluck('total', 'program_diteramina_id')
+            ->pluck('total', 'program_diterima_id')
             ->map(fn ($total) => (int) $total)
             ->all();
 
